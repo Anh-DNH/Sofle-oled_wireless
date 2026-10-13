@@ -3,13 +3,13 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: badjeff
-      url-base: https://github.com/badjeff/zmk-hid-joystick
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-hid-joystick
+    - name: zmk-analog-input-driver
       remote: badjeff
       revision: main
   self:
