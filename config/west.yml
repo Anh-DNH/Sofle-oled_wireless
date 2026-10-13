@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-hid-joystick
+    - name: zmk-analog-input-driver
       remote: badjeff
       revision: main
   self:
